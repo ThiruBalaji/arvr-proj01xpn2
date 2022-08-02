@@ -19,11 +19,11 @@
             gesture-detector
         >
             <a-assets>
-                <a-asset-item id="asseta" src="assets/apple/scene.gltf"></a-asset-item>
-                <a-asset-item id="assetb" src="assets/ball/scene.gltf"></a-asset-item>
+                <a-asset-item id="asseta" src="assets/ball/scene.gltf"></a-asset-item>
+                <a-asset-item id="assetb" src="assets/apple/scene.gltf"></a-asset-item>
                 <a-asset-item id="assetc" src="https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/ToyCar/glTF-Binary/ToyCar.glb"></a-asset-item>
-                <a-asset-item id="assetd" src="https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Duck/glTF-Binary/Duck.glb"></a-asset-item>
-                <a-asset-item id="assete" src="assets/elephant/scene.gltf"></a-asset-item>
+                <a-asset-item id="assete" src="https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Duck/glTF-Binary/Duck.glb"></a-asset-item>
+                <a-asset-item id="assetd" src="assets/elephant/scene.gltf"></a-asset-item>
                 <a-asset-item id="assetf" src="https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/BarramundiFish/glTF-Binary/BarramundiFish.glb"></a-asset-item>
             </a-assets>
 
@@ -37,13 +37,13 @@
                 <a-entity id="modelc" gltf-model="#assetc" scale="0.3 0.3 0.3" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
             </a-marker>
             <a-marker id="markerd" url="assets/patt/pattern-duck.patt" type="pattern" preset="custom" raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;">
-                <a-entity id="modeld" gltf-model="#assetd" scale="0.7 0.7 0.7" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
+                <a-entity id="modeld" gltf-model="#assetd" scale="0.5 0.5 0.5" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
             </a-marker>
             <a-marker id="markere" url="assets/patt/pattern-elephant.patt" type="pattern" preset="custom" raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;">
                 <a-entity id="modele" gltf-model="#assete" scale="0.3 0.3 0.3" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
             </a-marker>
             <a-marker id="markerf" url="assets/patt/pattern-fish.patt" type="pattern" preset="custom" raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;">
-                <a-entity id="modelf" gltf-model="#assetf" scale="0.3 0.3 0.3" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
+                <a-entity id="modelf" gltf-model="#assetf" scale="0.5 0.5 0.5" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
             </a-marker>
 
             <a-entity camera></a-entity>
