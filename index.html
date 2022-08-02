@@ -25,7 +25,7 @@
                 <a-asset-item id="assetd" src="https://raw.githubusercontent.com/ThiruBalaji/arvr_model/main/duck/scene.gltf"></a-asset-item>
                 <a-asset-item id="assete" src="https://raw.githubusercontent.com/ThiruBalaji/arvr_model/main/egg/scene.gltf"></a-asset-item>
                 <a-asset-item id="assetf" src="https://raw.githubusercontent.com/ThiruBalaji/arvr_model/main/fish/scene.gltf"></a-asset-item>
-                <a-asset-item id="assetg" src="https://raw.githubusercontent.com/ThiruBalaji/arvr_model/main/giraffe/scene.gltf"></a-asset-item>
+				<a-asset-item id="assetg" src="https://raw.githubusercontent.com/ThiruBalaji/arvr_model/main/giraffe/scene.gltf"></a-asset-item>
                 <a-asset-item id="asseth" src="https://raw.githubusercontent.com/ThiruBalaji/arvr_model/main/hat/scene.gltf"></a-asset-item>
             </a-assets>
 
@@ -42,16 +42,17 @@
                 <a-entity id="modeld" gltf-model="#assetd" scale="0.8 0.8 0.8" rotation="-40 -60 60" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
             </a-marker>
             <a-marker id="markere" url="assets/patt/pattern-egg.patt" type="pattern" preset="custom" raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;">
-                <a-entity id="modele" gltf-model="#assete" scale="0.1 0.1 0.1"  rotation="0 90 90" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
+                <a-entity id="modele" gltf-model="#assete" scale="0.1 0.1 0.1" rotation="0 90 90" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
             </a-marker>
             <a-marker id="markerf" url="assets/patt/pattern-fish.patt" type="pattern" preset="custom" raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;">
-                <a-entity id="modelf" gltf-model="#assetf" scale="0.5 0.5 0.5" rotation="-100 -70 70" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
+                <a-entity id="modelf" gltf-model="#assetf" scale="2 2 2" rotation="-100 -70 70" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
             </a-marker>
-            <a-marker id="markerg" url="assets/patt/pattern-giraffe.patt" type="pattern" preset="custom" raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;">
-                <a-entity id="modelg" gltf-model="#assetg" scale="1.5 1.5 1.5" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
+			
+			<a-marker id="markerg" url="assets/patt/pattern-giraffe.patt" type="pattern" preset="custom" raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;">
+                <a-entity id="modelg" gltf-model="#assetg" scale="0.015 0.015 0.015" rotation="-40 -60 60" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
             </a-marker>
             <a-marker id="markerh" url="assets/patt/pattern-hat.patt" type="pattern" preset="custom" raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;">
-                <a-entity id="modelh" gltf-model="#asseth" scale="0.5 0.5 0.5" rotation="-40 -60 60" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
+                <a-entity id="modelh" gltf-model="#asseth" scale="0.0025 0.0025 0.0025" rotation="-40 -60 60" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
             </a-marker>
 
             <a-entity camera></a-entity>
