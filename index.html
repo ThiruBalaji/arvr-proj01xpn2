@@ -25,6 +25,8 @@
                 <a-asset-item id="assetd" src="https://raw.githubusercontent.com/ThiruBalaji/arvr_model/main/duck/scene.gltf"></a-asset-item>
                 <a-asset-item id="assete" src="https://raw.githubusercontent.com/ThiruBalaji/arvr_model/main/egg/scene.gltf"></a-asset-item>
                 <a-asset-item id="assetf" src="https://raw.githubusercontent.com/ThiruBalaji/arvr_model/main/fish/scene.gltf"></a-asset-item>
+                <a-asset-item id="assetg" src="https://raw.githubusercontent.com/ThiruBalaji/arvr_model/main/giraffe/scene.gltf"></a-asset-item>
+                <a-asset-item id="asseth" src="https://raw.githubusercontent.com/ThiruBalaji/arvr_model/main/hat/scene.gltf"></a-asset-item>
             </a-assets>
 
             <a-marker id="markera" url="assets/patt/pattern-apple.patt" type="pattern" preset="custom" raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;">
@@ -44,6 +46,12 @@
             </a-marker>
             <a-marker id="markerf" url="assets/patt/pattern-fish.patt" type="pattern" preset="custom" raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;">
                 <a-entity id="modelf" gltf-model="#assetf" scale="0.5 0.5 0.5" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
+            </a-marker>
+            <a-marker id="markerg" url="assets/patt/pattern-giraffe.patt" type="pattern" preset="custom" raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;">
+                <a-entity id="modelg" gltf-model="#assetg" scale="0.3 0.3 0.3" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
+            </a-marker>
+            <a-marker id="markerh" url="assets/patt/pattern-hat.patt" type="pattern" preset="custom" raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;">
+                <a-entity id="modelh" gltf-model="#asseth" scale="0.5 0.5 0.5" animation-mixer="loop: repeat" class="clickable" gesture-handler></a-entity>
             </a-marker>
 
             <a-entity camera></a-entity>
